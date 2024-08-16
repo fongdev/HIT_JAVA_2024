@@ -28,14 +28,14 @@ public class Bai1 {
                         }
                     double p=(a+b+c)/2;
                     double S= Math.sqrt(p*(p-a)*(p-b)*(p-c));
-                    System.out.printf("%f",S);
+                    System.out.printf("%.2f",S);
   
                 }
                 //hinh tron
                 if(type.equals(ht)){
                     n=input.nextInt();
                     double S=Math.PI*Math.pow(n, 2);
-                    System.out.printf("%f",S);
+                    System.out.printf("%.2f",S);
                 }
             } 
                 else{
